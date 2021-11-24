@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.nextap.com.artific.Onboardingactivity"
+                android:background="#FFFFFF">
+
+
+    <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+    <Button
+            android:id="@+id/button12"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="Next"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="-118dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/next_button"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/viewpager"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"/>
+
+    <Button
+            android:id="@+id/skip_button"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="Skip"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/next_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp">
+
+
+    </Button>
+
+</RelativeLayout>

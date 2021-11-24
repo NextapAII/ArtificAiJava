@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "872219000507",
+    "firebase_url": "https://artific-ai-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "artific-ai",
+    "storage_bucket": "artific-ai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872219000507:android:50d1ffd7f7bf223a76739e",
+        "android_client_info": {
+          "package_name": "com.nextap.artificai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872219000507-7v2e5chg4nou5smba7rl3nvohgtpajqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nextap.artificai",
+            "certificate_hash": "2b66e92a0e4f9800f9f6fc5667e8a2c3c25d114a"
+          }
+        },
+        {
+          "client_id": "872219000507-a5l080l34bhtvmo19rqdompqcit8iaov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nextap.artificai",
+            "certificate_hash": "ee9fe4966e1e9779daeb350a13a140607c3ea973"
+          }
+        },
+        {
+          "client_id": "872219000507-23c4n15fcsc8q49678c28s2v04poboik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcGwOIqiB-q-Y-tMRKxbFpEqQnh0xThP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872219000507-23c4n15fcsc8q49678c28s2v04poboik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

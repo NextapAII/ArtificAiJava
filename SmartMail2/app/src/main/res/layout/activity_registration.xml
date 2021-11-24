@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.nextap.artificai.Registration" android:background="@color/bg_color">
+
+
+    <TextView
+            android:text="One tap registration"
+            android:layout_width="300dp"
+            android:layout_height="39dp" android:id="@+id/textView11"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center" android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/sign_in_button"
+            app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="Powered by Nextap"
+            android:layout_width="277dp"
+            android:layout_height="27dp" android:id="@+id/textView12"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center" android:textSize="12sp"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/sign_in_button"
+            app:layout_constraintVertical_bias="0.479"/>
+    <com.google.android.gms.common.SignInButton android:layout_width="321dp"
+                                                android:id="@+id/sign_in_button"
+                                                android:layout_height="60dp"
+                                                app:layout_constraintEnd_toEndOf="parent"
+                                                app:layout_constraintStart_toStartOf="parent"
+                                                app:layout_constraintTop_toTopOf="parent"
+                                                app:layout_constraintBottom_toBottomOf="parent"
+                                                app:layout_constraintVertical_bias="0.742"
+                                                android:background="@color/bg_color"
+                                                app:layout_constraintHorizontal_bias="0.444">
+    </com.google.android.gms.common.SignInButton>
+    <ImageView
+            android:layout_width="46dp"
+            android:layout_height="24dp" app:srcCompat="@drawable/real_company_logo" android:id="@+id/imageView35"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.854"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"/>
+    <ImageView
+            android:layout_width="249dp"
+            android:layout_height="251dp" app:srcCompat="@drawable/updated_app_logo" android:id="@+id/imageView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.32"/>
+    <TextView
+            android:text="Artific AI"
+            android:textColor="@color/white"
+            android:layout_width="312dp"
+            android:layout_height="58dp" android:id="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/imageView6" app:layout_constraintTop_toTopOf="parent"
+            android:textSize="34sp" android:textAlignment="center" app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintVertical_bias="0.854" android:textStyle="bold" android:textAllCaps="false"/>
+    <TextView
+            android:text="Change the way you write"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/rect_tobox"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_width="336dp"
+            android:layout_height="53dp" android:id="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/sign_in_button"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintVertical_bias="0.641"/>
+    <TextView
+            android:text="I hereby accept the Safe and Right use of Artific app avoiding all explicit content generation."
+            android:layout_width="338dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:layout_height="35dp" android:id="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView12"
+            android:textAlignment="center" android:textSize="14sp"/>
+    <TextView
+            android:text="Click to view Privacy Policies"
+            android:layout_width="wrap_content"
+            android:textColor="#F60087"
+            android:layout_height="wrap_content" android:id="@+id/pp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" app:layout_constraintBottom_toTopOf="@+id/textView4"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
